@@ -9,7 +9,6 @@ function Greet(name) {
   }
   if (name === name.toUpperCase()) {
     return 'HELLO ' + name + '!';
-    } else {
-    return 'Hello, ' + name;
     }
+    return 'Hello, ' + name;
 }
